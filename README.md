@@ -1,3 +1,3 @@
 # QSAR_classification
 
-![Error rates](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
+<img src="https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png" width="10>
