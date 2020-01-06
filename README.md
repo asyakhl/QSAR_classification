@@ -1,8 +1,8 @@
 # QSAR_classification
 
-###Introduction
+### Introduction
 
-The data is from [UCI machine learning repository.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation)
+The data set source is [UCI machine learning repository.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation)
 
 It has 1,055 instances (molecules) and their 41 features (chemical and physical properties).
 Each molecule is either readily biodegradable (RB) or not readily biodegradable (NRB).
