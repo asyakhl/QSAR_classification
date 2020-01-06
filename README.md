@@ -13,7 +13,7 @@ its 41 features.
 The following was repeated 100 times to capture train error, test error, and minimum 
 CV error spreads for all 5 classification methods. 
 
-	Through random sampling, the data set was separated into 90% *train set* and the 
+	Through random sampling, the data set was separated into 0.9n *train set* and the 
 rest was used as *test set* data. The data was weighted through resampling since there 
 was an imbalance of 66% NRB and 34% RB.
 	Using the *train set*, the hyper parameters of logistic lasso, logistic ridge, and 
