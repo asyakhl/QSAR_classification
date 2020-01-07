@@ -46,3 +46,9 @@ logistic ridge are similar to the cv error of unregularized logistic regression.
 
 <img src="/img/cv_errors_vs_coefficients.png" width="400">
 
+### Heatmap of radial SVM CV Error Rates
+The heatmap is used to determine the SVM parameters (gamma and cost) that give the 
+smallest cross-validation error rate. 
+
+<img src="heatmap_svm_parameters.png" width="400">
+
