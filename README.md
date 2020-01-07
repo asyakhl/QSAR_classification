@@ -1,5 +1,5 @@
 # Classification of QSAR Biodegradation data set with logistic, ridge, lasso, 
-radial SVM, and Random Forests
+# radial SVM, and Random Forests
 
 ### Introduction
 
