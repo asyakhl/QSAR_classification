@@ -28,8 +28,8 @@ As shown in the figure below, of the 5 classification methods rf and svm models 
 lowest train error rates with the *train set* data. However, these models perform much 
 worse with *train set* data, while the rest of the models, although have more spread
 out error rates, on average have error rate similar to those with *train set* data.
-The box plot of *test fn errors* stands out, here, svm and rf have the worst performance
-and should not be used for identification of RB molecules, instead _logistic ridge_ appears 
-to have the best overall performance for identifying RB molecules.
+The box plot of **test fn errors** stands out, here, svm and rf have the worst performance
+and should not be used for identification of RB molecules, instead **logistic ridge** 
+appears to have the best overall performance for identifying RB molecules.
 
 ![Error Rates](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
