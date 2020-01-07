@@ -29,7 +29,7 @@ worse with *train set* data, while the rest of the models, although have more sp
 out error rates, on average have error rate similar to those with *train set* data.
 The box plot of **test fn errors** stands out, here, svm and rf have the worst performance
 and should not be used for identification of RB molecules, instead **logistic ridge** 
-appears to have the best overall performance for identifying RB molecules.
+appears to have the best overall performance for purpose of identifying RB molecules.
 
 ![Error Rates](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
 
@@ -54,7 +54,8 @@ the best cost parameter appears to be equal to 100 and the best gamma parameter 
 <img src="/img/heatmap_svm_parameters.png" width="400">
 
 ### Logistic Lasso, Logistic Ridge, and SVM Variable Importance
-
+V19 was too sparse and was not used with any of the classification methods. 
+Feature definitions can be found [here.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation) 
 <img src="/img/lasso_parameters_reformatted.png" width="430">   <img src="/img/ridge_parameters_reformatted.png" width="430">
 
 <img src="/img/rf_parameters_reformatted.png" width="430">
