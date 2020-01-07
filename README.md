@@ -41,4 +41,4 @@ logistic ridge, and svm.
 
 
 
-<img src="/img/min_cv_errors.png" width="48">
+<img src="/img/min_cv_errors.png" width="150">
