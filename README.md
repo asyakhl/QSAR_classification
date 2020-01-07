@@ -1,7 +1,6 @@
-# Classification of QSAR Biodegradation data set with logistic, ridge, lasso, radial SVM, and Random Forests
+# Classification of QSAR Biodegradation data set 
 
-## Introduction
-
+### Introduction
 Quantitative Structure Activity Relationship (QSAR) biodegradation data set.
 The data set source is [UCI machine learning repository.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation)
 
@@ -12,7 +11,6 @@ and random forests are used here to classify each molecule as RB or NRB based on
 its 41 features. 
 
 ### Train and Test Error Rates
-
 The following was repeated 100 times to capture the spread of train error, test error, 
 and minimum CV error rates for all 5 classification methods. 
 
@@ -36,7 +34,6 @@ appears to have the best overall performance for identifying RB molecules.
 ![Error Rates](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
 
 ### Minimum Cross-Validation Error Rates
-
 The following figure shows the spread of minimum CV error rates for logistic lasso, 
 logistic ridge, and svm.
 
@@ -44,7 +41,6 @@ logistic ridge, and svm.
 
 
 ### Cross-Validation Error vs L2-Norm of Beta Coefficients for Logistic Lasso and Ridge
-
 From the figure below, the smallest cross-validation errors for logistic lasso and 
 logistic ridge are similar to the cv error of unregularized logistic regression.  
 
