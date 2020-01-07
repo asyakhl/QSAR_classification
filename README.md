@@ -39,7 +39,7 @@ appears to have the best overall performance for identifying RB molecules.
 The following figure shows the spread of minimum CV error rates for logistic lasso, 
 logistic ridge, and svm.
 
-<img src="/img/min_cv_errors.png" width="500">
+<img src="/img/min_cv_errors.png" width="400">
 
 
 ### Cross-Validation Error vs L2-Norm of Beta Coefficients for Lasso and Ridge
