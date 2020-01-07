@@ -44,5 +44,8 @@ logistic ridge, and svm.
 
 ### Cross-Validation Error vs L2-Norm of Beta Coefficients for Lasso and Ridge
 
+From the figure below, the smallest cross-validation errors for logistic lasso and 
+logistic ridge is similar to that of unregularized logistic regression.  
 
 <img src="/img/cv_errors_vs_coefficients.png" width="400">
+
