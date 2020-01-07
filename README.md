@@ -50,5 +50,5 @@ logistic ridge are similar to the cv error of unregularized logistic regression.
 The heatmap is used to determine the SVM parameters (gamma and cost) that give the 
 smallest cross-validation error rate. 
 
-<img src="heatmap_svm_parameters.png" width="400">
+<img src="/img/heatmap_svm_parameters.png" width="400">
 
