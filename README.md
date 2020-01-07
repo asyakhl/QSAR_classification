@@ -56,6 +56,8 @@ the best cost parameter appears to be equal to 100 and the best gamma parameter 
 ### Logistic Lasso, Logistic Ridge, and SVM Variable Importance
 V19 was too sparse and was not used with any of the classification methods. 
 Feature definitions can be found [here.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation) 
+
+
 <img src="/img/lasso_parameters_reformatted.png" width="430">   <img src="/img/ridge_parameters_reformatted.png" width="430">
 
 <img src="/img/rf_parameters_reformatted.png" width="430">
