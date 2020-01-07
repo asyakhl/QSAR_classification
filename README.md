@@ -55,6 +55,6 @@ the best cost parameter appears to be equal to 100 and the best gamma parameter 
 
 ### Logistic Lasso, Logistic Ridge, and SVM Variable Importance
 
-<img src="/img/lasso_parameters_reformatted.png" width="400"> <img src="/img/ridge_parameters_reformatted.png" width="400">
+<img src="/img/lasso_parameters_reformatted.png" width="450">   <img src="/img/ridge_parameters_reformatted.png" width="450">
 
-<img src="/img/rf_parameters_reformatted.png" width="400">
+<img src="/img/rf_parameters_reformatted.png" width="450">
