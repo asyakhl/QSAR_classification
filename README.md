@@ -48,7 +48,8 @@ logistic ridge are similar to the cv error of unregularized logistic regression.
 
 ### Heatmap of radial SVM CV Error Rates
 The heatmap is used to determine the SVM parameters (gamma and cost) that give the 
-smallest cross-validation error rate. 
+smallest cross-validation error rate. In the case of QSAR biodegradation data set,
+the best cost parameter appears to be equal to 100 and the best gamma parameter is 0.1.
 
 <img src="/img/heatmap_svm_parameters.png" width="400">
 
