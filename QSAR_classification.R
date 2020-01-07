@@ -379,7 +379,10 @@ ridge.coef=as.vector(coef(ridge.fit))[-1]
 lasso.coef.data=data.frame(predictor=rownames(coef(lasso.fit))[-1], lasso.coefs=lasso.coef)
 ridge.coef.data=data.frame(predictor=rownames(coef(ridge.fit))[-1], ridge.coefs=ridge.coef)
 
-ggplot(lasso.coef.data, aes(reorder(predictor, lasso.coefs), lasso.coefs)) +
+lasso.coef.data$predictor = factor (lasso.coef.data$predictor, levels= c(paste0("V", 1:41)))
+ridge.coef.data$predictor = factor (ridge.coef.data$predictor, levels= c(paste0("V", 1:41)))
+
+ggplot(lasso.coef.data, aes(predictor, lasso.coefs)) +
   theme(axis.title.y = element_blank(),
         axis.title.x =element_text(size=11,face="bold"),
         axis.text.y  = element_text(vjust=0.7, size=9,face="bold"),
@@ -392,7 +395,7 @@ ggplot(lasso.coef.data, aes(reorder(predictor, lasso.coefs), lasso.coefs)) +
   ggtitle("Importance of Logistic.Lasso Parameters")
 
 
-ggplot(ridge.coef.data, aes(reorder(predictor, ridge.coefs), ridge.coefs)) +
+ggplot(ridge.coef.data, aes(predictor, ridge.coefs)) +
   theme(axis.title.y = element_blank(),
         axis.title.x =element_text(size=11,face="bold"),
         axis.text.y  = element_text(vjust=0.7, size=9,face="bold"),
@@ -407,8 +410,9 @@ ggplot(ridge.coef.data, aes(reorder(predictor, ridge.coefs), ridge.coefs)) +
 
 rf.var.importance=data.frame(Variable=rownames(rf.fit$importance),
                              MeanDecreaseGini=as.vector(rf.fit$importance))
+rf.var.importance$Variable = factor(rf.var.importance$Variable, levels= c(paste0("V", 1:41)))
 
-ggplot(rf.var.importance, aes(reorder(Variable, MeanDecreaseGini), MeanDecreaseGini)) +
+ggplot(rf.var.importance, aes(Variable, MeanDecreaseGini)) +
   theme(axis.title.y = element_blank(),
         axis.title.x =element_text(size=11,face="bold"),
         axis.text.y  = element_text(vjust=0.7, size=9,face="bold"),
@@ -417,7 +421,7 @@ ggplot(rf.var.importance, aes(reorder(Variable, MeanDecreaseGini), MeanDecreaseG
   geom_bar(stat = "identity", fill = "forestgreen") +
   coord_flip() +
   geom_text(aes(label = round(MeanDecreaseGini,2)),
-            nudge_y = 2 )+
+            nudge_y = 4 )+
   ggtitle("Variable Importance of Random Forest")
 
 ggplot(data = tune.svm$performances, aes(x = as.factor(cost),
