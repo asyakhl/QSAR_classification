@@ -1,7 +1,6 @@
-# Classification of QSAR Biodegradation data set with logistic, ridge, lasso, 
-# radial SVM, and Random Forests
+# Classification of QSAR Biodegradation data set with logistic, ridge, lasso, radial SVM, and Random Forests
 
-### Introduction
+## Introduction
 
 Quantitative Structure Activity Relationship (QSAR) biodegradation data set.
 The data set source is [UCI machine learning repository.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation)
