@@ -1,7 +1,8 @@
-# QSAR_classification
+# QSAR Biodegradation
 
 ### Introduction
 
+Quantitative Structure Activity Relationship (QSAR) biodegradation data set.
 The data set source is [UCI machine learning repository.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation)
 
 The data set has 1,055 instances (molecules) and their 41 features (chemical and physical properties).
