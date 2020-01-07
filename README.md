@@ -33,3 +33,10 @@ and should not be used for identification of RB molecules, instead **logistic ri
 appears to have the best overall performance for identifying RB molecules.
 
 ![Error Rates](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
+
+### Minimum Cross-Validation Error Rates
+
+The following figure shows the spread of minimum CV error rates for logistic lasso, 
+logistic ridge, and svm.
+
+![Minimum CV errors](https://github.com/asyakhl/QSAR_classification/blob/master/img/min_cv_errors.png)
