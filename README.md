@@ -17,13 +17,16 @@ and minimum CV error rates for all 5 classification methods.
 
 Through random sampling, the data set was separated into 90% *train set* and the 
 rest was used as *test set* data. The data was weighted through resampling since there 
-was an imbalance of 66% NRB and 34% RB.
+was some imbalance of 66% NRB and 34% RB.
 
 Using the *train set*, the hyper parameters of logistic lasso, logistic ridge, and 
 radial svm were tuned with 10-fold CV. The minimum CV error rates were extracted. 
 The fitted models were used to capture train error, test error, false positive (fp)
 train error, false negative (fn) train error, fp test error, and fn test error rates. 
 
+As shown in the figure below, of the 5 classification methods rf and svm models have the 
+lowest train error rates with the *train set* data. However, these models perform much 
+worse with *train set* data, while the rest of the models, although have more spread
+out error rates, on average have error rate similar to those with *train set* data. 
 
-
-![](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
+![Error Rates](https://github.com/asyakhl/QSAR_classification/blob/master/img/Error_Rates.png)
