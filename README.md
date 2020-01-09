@@ -25,8 +25,8 @@ train error, false negative (fn) train error, fp test error, and fn test error r
 
 As shown in the figure below, of the 5 classification methods rf and svm models have the 
 lowest train error rates with the *train set* data. However, these models perform much 
-worse with *train set* data, while the rest of the models, although have more spread
-out error rates, on average have error rate similar to those with *train set* data.
+worse with *test set* data, while the rest of the models, although have more spread
+out error rates, on average have error rate similar to those with their *train set* data.
 The box plot of **test fn errors** stands out, here, svm and rf have the worst performance
 and should not be used for identification of RB molecules, instead **logistic ridge** 
 appears to have the best overall performance for purpose of identifying RB molecules.
@@ -53,7 +53,7 @@ the best cost parameter appears to be equal to 100 and the best gamma parameter 
 
 <img src="/img/heatmap_svm_parameters.png" width="400">
 
-### Logistic Lasso, Logistic Ridge, and SVM Variable Importance
+### Variable Importance of Logistic Lasso, Logistic Ridge, and SVM Methods
 V19 was too sparse and was not used with any of the classification methods. 
 Feature definitions can be found [here.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation) 
 
