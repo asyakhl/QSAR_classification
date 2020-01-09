@@ -56,7 +56,15 @@ the best cost parameter appears to be equal to 100 and the best gamma parameter 
 ### Variable Importance of Logistic Lasso, Logistic Ridge, and SVM Methods
 V19 was too sparse and was not used with any of the classification methods. 
 Feature definitions can be found [here.](https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation) 
-
+V19 was too sparse and was not used with any of the classification methods. Feature definitions can be found on UCI machine learning repository. The logistic lasso and logistic ridge have similar
+patterns for coefficient importance. However, logistic lasso tends to emphasize some 
+coefficients and reduce others to zero, while logistic ridge tends to reduce all 
+coefficients in proportion to their importance. Hence, lasso coefficients are either 
+large or small, while those of ridge are somewhere inbetween. The variable importance 
+pattern of random forests method is completely different from the patterns of logistic 
+lasso and logistic ridge, because random forests method is non-linear method and logistic 
+regression is a linear method, two different methods produce two different patterns for 
+variable importance. 
 
 <img src="/img/lasso_parameters_reformatted.png" width="430">   <img src="/img/ridge_parameters_reformatted.png" width="430">
 
