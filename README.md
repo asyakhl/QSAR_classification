@@ -24,7 +24,7 @@ The fitted models were used to capture train error, test error, false positive (
 train error, false negative (fn) train error, fp test error, and fn test error rates. 
 
 As shown in the figure below, of the 5 classification methods rf and svm models have the 
-lowest train error rates with the *train set* data. However, these models perform much 
+lowest train error rates with the *train set* data. However, these two models perform much 
 worse with *test set* data, while the rest of the models, although have more spread
 out error rates, on average have error rate similar to those with their *train set* data.
 The box plot of **test fn errors** stands out, here, svm and rf have the worst performance
